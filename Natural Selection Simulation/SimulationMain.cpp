@@ -4,7 +4,7 @@
 using namespace sf;
 
 int main() {
-	RenderWindow* window = new RenderWindow(VideoMode(800, 1000), "Simulation");
+	RenderWindow* window = new RenderWindow(VideoMode(1000, 800), "Simulation");
 
 	window->setFramerateLimit(144);
 
